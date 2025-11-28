@@ -1,0 +1,3 @@
+2025-11-28 11:35:00.794678+09:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "POST" not found (this database is empty); SQL statement:
+select count(*) from post p1_0 [42104-240]
