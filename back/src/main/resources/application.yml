@@ -6,6 +6,9 @@ spring:
   output:
     ansi:
       enabled: always
+  thymeleaf:
+    cache: false
+    prefix: classpath:/templates/
   datasource:
     hikari:
       auto-commit: false
